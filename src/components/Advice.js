@@ -5,7 +5,7 @@ export default function Advice(props) {
     return(
         <>
             <p className="number">ADVICE #{props.number}</p>
-            <h2 className="advice">{props.text}</h2>
+            <h2 className="advice">"{props.text}"</h2>
         </>
     )
 

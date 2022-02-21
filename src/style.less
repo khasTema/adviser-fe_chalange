@@ -6,7 +6,23 @@
 
 body {
    margin: 0;
+   background-color: @dark_grayish_blue;
+   font-size: @font_size;
+   font-family: @font_family;
 }
+
+#root {
+    width: 100%;
+    height: 100vh;
+    .flex-box();
+    flex-direction: column;
+}
+
+
+@import './styles/_card.less';
+@import './styles/_advice.less';
+@import './styles/_imageline.less';
+@import './styles/_reloadbtn.less';
 
 
 
